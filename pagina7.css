@@ -1,0 +1,27 @@
+body{
+    font-size: 25px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 31%, rgba(0, 212, 255, 1) 100%);
+}
+
+div{
+background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin muda as quatro direções
+    padding mesme coisa so que para dentro aumenta a linha colorida exp*/
+    padding: 10px;
+    text-align: center;
+    /*opacity muda a opacidade*/
+    border-bottom: 2px solid white;
+    width: 50%;
+    transition: 1s;
+}
+
+div:hover{
+/*widht 80%; aumenta o tamanho da div quando o mouse for passado*/
+width: 80%;
+
+}
