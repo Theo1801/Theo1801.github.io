@@ -1,0 +1,50 @@
+div p{
+    color: blue;
+}
+body{
+    background-color:gray;
+}
+
+.pai{
+    color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+.pai div{
+    color: blue;
+    border: 5px solid;
+    padding: 5px;
+}
+
+.pai > div{
+    border-radius: 10px;
+}
+
+.pai div div{
+    color: red;
+    border: 5px solid;
+    padding: 5px;
+    
+}
+
+.pai div div div{
+    color: aqua;
+    border: 5px solid;
+    padding: 5px;
+}
+
+.caixa1{
+    background-color:brown;;
+}
+
+.caixa2{
+    background-color: purple;
+}
+
+.caixa1, .caixa2{
+height: 50px;
+width: 150px;
+font-size: 20px;
+}
