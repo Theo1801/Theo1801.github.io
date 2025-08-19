@@ -1,0 +1,29 @@
+.container{
+    background-color: orange;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.container div{
+
+    
+
+
+
+    
+}
+
+h1{
+text-align: center;
+color: red;
+
+}
+
+body{
+    background-color: gray;
+}

@@ -1,0 +1,51 @@
+
+
+body{
+    height: 100vh;
+    margin: 0;
+    background-image: url('loja.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+*{
+    font-family: 'Arial';
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(209, 209, 209, 0.615);
+    color: white;
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
+}
+
+nav > div{
+    display: flex;
+    gap: 15px;
+}
+
+nav a{
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav:hover{
+    background-color: white;
+    color: black;
+}
+
+nav:hover a{
+    color: black;
+}
+
+nav i{
+    font-size: 25px;
+}
