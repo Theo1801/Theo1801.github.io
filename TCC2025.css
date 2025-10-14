@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    justify-content:space-around ;
+    background-color: white;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70px;
+    
+}
+
+nav a{
+    text-decoration:none;
+    color: black;
+    font-family: "BBH Sans Bogle", sans-serif;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    background-image: url('ADIDAS\ LOGO\ 2.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+#outlet{
+    color: red;
+}
+
+
+nav div{
+    display: flex;
+    gap:20px;
+}
+
+nav img{
+    height: 40px;
+}
+
+.icones{
+    font-size: 20px;
+}
+
+.banner img{
+height: 485px;
+}
